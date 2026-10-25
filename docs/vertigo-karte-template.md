@@ -77,10 +77,20 @@ HINTS も Dix-Hallpike も **使える型が決まっている**。型を間違�
 
 ### 4-1. 適応（ここを外すと意味がない）
 
-- **持続性（AVS）** であること
+- **持続性（AVS）** であること。来院時にまだ症状が続いていれば AVS として扱う
 - 診察時に **自発眼振または注視眼振が見えている** こと
-- 眼振のない人・発作が治まった人に HIT をすると「正常（catch-up なし）」になる。
-  これは中枢を意味しないが、末梢とも言えない → **「HINTS 適応外」** と書く
+
+**なぜ眼振が必要か**：HINTS は「今見えている眼振の原因が内耳か脳か」を見分ける検査。
+
+| 状態 | HIT | 解釈 |
+|---|---|---|
+| 眼振あり | 片側で catch-up あり | 前庭神経が壊れていて眼振を説明できる → **末梢** |
+| 眼振あり | 両側とも正常 | 内耳は正常なのに眼振がある → 原因は脳 → **中枢** |
+| **眼振なし** | 両側とも正常（当然） | ルール上「中枢」になってしまう → 不要な MRI が増える。判定に使えない |
+
+- 眼振のない人に HINTS をして **「HINTS 陰性＝安心」と書くのはよくある誤り** → **「HINTS 適応外」** と書く
+- 眼振のない持続性めまい → **歩行の重症度** で判断する（6 章）
+- 根拠は 9 章の文献を参照
 
 ### 4-2. やり方と判定
 
@@ -174,7 +184,16 @@ HINTS も Dix-Hallpike も **使える型が決まっている**。型を間違�
 ## 6. HINTS 以外に必ず見る神経所見
 
 - **立位・歩行（最重要）**：支えなしで **座れない・立てない・歩けない** → HINTS が末梢でも中枢を疑う。
-  前庭神経炎は片側へ傾いても、たいてい自力で立てる
+  前庭神経炎は片側へ傾いても、たいてい自力で立てる。**眼振がないときはこれが主な判断材料**
+
+| Grade | 状態 | 脳卒中だった割合 |
+|---|---|---|
+| 0 | 正常 | 0%（0/5） |
+| 1 | ふらつくが自力で歩ける | 7%（3/42） |
+| 2 | 立位で強くふらつく／支えなしでは歩けない | 28%（11/39） |
+| 3 | 支えなしで立てない・倒れる | **100%（28/28）** |
+
+（GRACE-3 Table 3。元は Carmona 2016 の AVS 114 例の 1 研究）
 - **5D**：Diplopia（複視）・Dysarthria（構音障害）・Dysphagia（嚥下障害）・Dysmetria（指鼻・踵膝の拙劣）・
   Dysesthesia（顔面・四肢のしびれ）
 - Horner 症候群・顔面の温痛覚低下（Wallenberg 症候群）
@@ -216,3 +235,24 @@ HINTS も Dix-Hallpike も **使える型が決まっている**。型を間違�
 □ CO 中毒（同居家族も同じ症状、冬季・暖房）
 □ 薬剤（降圧薬・抗てんかん薬・睡眠薬）
 ```
+
+---
+
+## 9. 参考文献
+
+- **Kattah JC, et al.** HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination more sensitive than early MRI diffusion-weighted imaging. *Stroke*. 2009;40(11):3504–3510.
+  - HINTS の原著。対象は **AVS（めまい・眼振・嘔気嘔吐・頭位変換で悪化・歩行不安定）** ＋脳卒中リスク 1 つ以上の 101 例
+  - 感度 100%・特異度 96%。初回 DWI は 12% が偽陰性（全例発症 48 時間以内）
+- **Newman-Toker DE, et al.** HINTS outperforms ABCD2 to screen for stroke in acute continuous vertigo and dizziness. *Acad Emerg Med*. 2013;20(10):986–996.
+  - HINTS Plus（聴力）を加えた研究。対象は **眼振のある** 持続性めまい 190 例
+- **Edlow JA, et al.** Guidelines for reasonable and appropriate care in the emergency department 3 (GRACE-3): Acute dizziness and vertigo in the emergency department. *Acad Emerg Med*. 2023;30(5):442–486.
+  - 推奨 2：眼振のある AVS に、訓練を受けた医師が HINTS を行う（強い推奨）
+  - 推奨 3：眼振のある AVS で指こすりの聴力検査を追加（HINTS Plus）
+  - 推奨 4：**眼振のない AVS は歩行の重症度で判断**
+  - 本文：HIT は **自発眼振のある持続性めまいだけ** に使う。眼振のない人では両側正常 HIT が誤って脳卒中を示唆し、不要な画像検査が増える
+  - 早期 DWI（発症 48 時間以内）は脳卒中の 10–22%、小さい後頭蓋窩梗塞の 50% を見逃す
+  - メタ解析：HINTS 感度 92.9%・特異度 83.4%、HINTS Plus 感度 99%・特異度 84.8%
+- **Nolan K, et al.** Improper performance of HINTS exam in emergency physicians is driven by incorrect use of nystagmus. *Am J Emerg Med*. 2025;94:185–187.
+  - ER 医が行った HINTS の **71%** が不適切な患者に行われ、その **大半が眼振のない患者** だった
+- **Carmona S, et al.** The diagnostic accuracy of truncal ataxia and HINTS as cardinal signs for acute vestibular syndrome. *Front Neurol*. 2016;7:125.
+  - 歩行の Grade 分類（6 章の表）の元の研究
