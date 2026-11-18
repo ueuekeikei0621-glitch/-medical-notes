@@ -134,6 +134,12 @@ BLS では AED が「ショックするか」を決めてくれた。ICLS では
 - 電極をベッドサイドモニターにつないでいる施設なら、**そちらの画面で別の誘導を見る**
 - 波形チェックで **どの画面を見るか** を、院内で決めておく（確認しておく）
 
+**使い方の動画（機種ごと。自分の病院の機種のものを見る）**
+- LIFEPAK 20e（ストライカー）「Manual defibrillation」：https://www.stryker.com/us/en/training-and-education/medical-and-surgical-equipment--/emergency-care/emergency-care/video/lifepak-20e--manual-defibrillation.html
+  - 同じシリーズに「AED モードから手動モードへの切り替え」「同期カルディオバージョン」「心電図のモニター」などもある：https://www.stryker.com/us/en/training-and-education/medical-and-surgical-equipment--/emergency-care/emergency-care/lifepak-20e-training.html
+- ZOLL R シリーズ：ZOLL の e ラーニング動画（https://www.zoll.com/au/contact/elearning/videos/r-series-int/Polish%20r-series）、フロリダ大学のシミュレーション（https://simulation.health.ufl.edu/education-training/apsf-technology-education-initiative/manual-external-defibrillation-cardioversion-pacing/zoll-r-series/）
+- 日本光電（カルジオライフ TEC シリーズ）：公開された使い方動画は見つからなかった → 院内の臨床工学技士・取扱説明書で確認
+
 **ショックの前の声かけ**
 > 「ショックします。離れてください！ **酸素よし、自分よし、周りよし**」
 
