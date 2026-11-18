@@ -251,6 +251,15 @@ source: LUCAS 3 心臓マッサージシステム 取扱説明書（日本語版
 
 ---
 
+## 動画（公式 LUCAS Web トレーニング）
+
+- **安定用ストラップの付け方**「Secure LUCAS to patient」：https://player.vimeo.com/video/248847984
+- 実技トレーニングのページ（付け方・ストラップ・背中の板の入れ方）：https://www.lucas-cpr.com/web_training/lucas3/hands-on_training/
+  - 背中の板：「Rolling method」（横に転がす）https://player.vimeo.com/video/248331818 ／「Lifting method」（持ち上げる）https://player.vimeo.com/video/248333409
+  - 手の圧迫から LUCAS への切り替え「Attachment and transition」：https://player.vimeo.com/video/248856381
+- 全体の流れ（機器の説明）：https://www.lucas-cpr.com/web_training/lucas3/device_orientation/ （「Hospital」の動画が院内の使い方）
+- 日本語版のトレーニングページ：https://www.lucas-cpr.com/jp/web_training/lucas3/
+
 ## メモ
 
 - 操作手順・数値は **LUCAS 3（v3.1）の日本語取扱説明書**（2026 年 6 月版）による。**自施設の機種・設定**（速さ・深さ・30:2 の設定）を確認しておく
