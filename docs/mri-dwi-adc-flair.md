@@ -175,6 +175,7 @@ Step 6  出血は T2*/SWI（or CT）、血管は MRA で別に確認
 
 ### 5-2. 発症時刻不明（wake-up stroke）：DWI-FLAIR mismatch
 
+- 読み：**ディーダブリューアイ・フレア・ミスマッチ**（現場では「ディフュージョン・フレア・ミスマッチ」とも。文献では FLAIR-DWI mismatch と逆順のこともある）
 - **DWI 白・ADC 黒なのに FLAIR で白くない** → 発症から 4.5 時間以内の可能性が高い
 - **WAKE-UP 試験**（NEJM 2018）：発症時刻不明でも DWI-FLAIR mismatch があればアルテプラーゼで転帰が改善
 - 日本の **静注血栓溶解（rt-PA）療法 適正治療指針 第三版（2019）** でも、発症時刻不明例で mismatch があれば静注血栓溶解を考慮できるとされている
@@ -220,6 +221,53 @@ Step 6  出血は T2*/SWI（or CT）、血管は MRA で別に確認
 | 脳炎 | HSV：側頭葉内側・島、自己免疫性：辺縁系 | |
 | Wernicke 脳症 | 視床内側・乳頭体・中脳水道周囲 | 疑えば MRI を待たずにビタミン B1 |
 | 腫瘍周囲浮腫 | 腫瘍の周りの広い高信号 | 浮腫は ADC 上昇（血管性浮腫） |
+
+### 5-6. いろいろな「ミスマッチ」
+
+**ミスマッチ ＝ 2 つの画像（または症状と画像）で、病変の広さや有無がずれていること。**
+脳梗塞のミスマッチは 2 系統に分けると整理しやすい。
+
+```
+時間の時計：発症からどれくらいたったか     → DWI-FLAIR mismatch だけ
+組織の時計：まだ救える脳がどれくらい残るか → それ以外ほぼ全部
+            「DWI（＝コア、もう救えない）」vs「危険にさらされている範囲」
+            範囲の差 ＝ ペナンブラ（まだ救える脳）
+```
+
+| ミスマッチ | 読み | 何と何を比べるか | 意味 | 使い道 |
+|---|---|---|---|---|
+| DWI-FLAIR | ディーダブリューアイ・フレア | DWI 白なのに FLAIR は白くない | 発症 4.5 h 以内らしい | 時刻不明例の rt-PA（5-2） |
+| PWI-DWI（灌流-拡散） | ピーダブリューアイ・ディーダブリューアイ（「パーフュージョン・ディフュージョン」） | 血流低下域（PWI）が DWI 病変より広い | 差 ＝ ペナンブラ | 発症 6 h 以降の血栓回収（DEFUSE 3）、海外では 4.5〜9 h・起床時発見例の rt-PA（EXTEND） |
+| CT 灌流（CTP） | シーティー・パーフュージョン | 血流遅延域（Tmax 延長）がコア（脳血流の高度低下域）より広い | PWI-DWI の CT 版 | 同上。MRI が撮れない施設・患者 |
+| Clinical-DWI（臨床-拡散） | クリニカル・ディフュージョン | 症状が重い（NIHSS 高い）のに DWI 病変が小さい | 症状の割にコアが小さい → 救える脳が多い | 発症 6〜24 h の血栓回収（DAWN） |
+| MRA-DWI | エムアールエー・ディーダブリューアイ | 主幹動脈閉塞（内頸動脈・M1）があるのに DWI 病変が小さい | 閉塞血管の支配域の大部分がまだ梗塞になっていない | 灌流画像がないときの代用 |
+| FVH-DWI | エフブイエイチ・ディーダブリューアイ | FLAIR 血管内高信号の範囲が DWI 病変より広い | 側副血行で持ちこたえている範囲 | 灌流画像がないときの代用 |
+
+- 逆に **DWI 病変のほうが血流低下域より広い（逆ミスマッチ）** ときは、すでに再開通していることが多い
+- ミスマッチは「救える脳がありそうか」の推定。血管が開けられるかは別問題
+
+**血栓回収の代表的な基準**
+
+```
+DEFUSE 3（発症 6〜16 h、内頸動脈・M1 閉塞）＝ 灌流-コア mismatch
+  コア < 70 mL かつ ミスマッチ比（血流低下域 ÷ コア）≥ 1.8 かつ 差 ≥ 15 mL
+
+DAWN（発症 6〜24 h、内頸動脈・M1 閉塞）＝ clinical-core mismatch
+  80 歳以上：NIHSS ≥ 10 かつ コア < 21 mL
+  80 歳未満：NIHSS ≥ 10 かつ コア < 31 mL
+            NIHSS ≥ 20 かつ コア 31〜<51 mL
+```
+
+- 自動解析ソフトでは、コアは **CT なら脳血流（rCBF）< 30%、MRI なら ADC < 620 × 10⁻⁶ mm²/s**、血流低下域は **Tmax > 6 秒** で計算されることが多い
+- 日本の脳卒中治療ガイドライン 2021〔改訂 2023〕でも、これらの基準を満たす発症 6〜24 h の内頸動脈・M1 閉塞には血栓回収が勧められている
+
+**脳梗塞以外のミスマッチ**
+
+| ミスマッチ | 読み | 何と何を比べるか | 意味 |
+|---|---|---|---|
+| T2-FLAIR mismatch sign | ティーツー・フレア・ミスマッチ・サイン | T2 で一様に白い腫瘍が、FLAIR では中心が黒く縁だけ白い | **IDH 変異・1p/19q 非共欠失の星細胞腫** に特異度が非常に高い（感度は低い） |
+| 換気-血流（V/Q）ミスマッチ | ブイキュー | 肺シンチで換気は正常なのに血流だけ欠損 | **肺塞栓**。造影 CT が使えないとき（腎障害・妊婦）に |
+| 血流-代謝ミスマッチ（心筋） | — | 心筋血流は低下しているのに FDG の取り込みは保たれる | **冬眠心筋**（まだ生きている）→ 血行再建で壁運動が戻る見込み |
 
 ---
 
@@ -287,6 +335,11 @@ A：HINTS+ 中枢パターン（注視方向性眼振、skew＋）のため小�
 - Allen LM, et al. Sequence-specific MR imaging findings that are useful in dating ischemic stroke. *RadioGraphics* 2012;32:1285-1297.
 - Thomalla G, et al. DWI-FLAIR mismatch for the identification of patients with acute ischaemic stroke within 4·5 h of symptom onset (PRE-FLAIR). *Lancet Neurol* 2011;10:978-986.
 - Thomalla G, et al. MRI-guided thrombolysis for stroke with unknown time of onset (WAKE-UP). *N Engl J Med* 2018;379:611-622.
+- Albers GW, et al. Thrombectomy for stroke at 6 to 16 hours with selection by perfusion imaging (DEFUSE 3). *N Engl J Med* 2018;378:708-718.
+- Nogueira RG, et al. Thrombectomy 6 to 24 hours after stroke with a mismatch between deficit and infarct (DAWN). *N Engl J Med* 2018;378:11-21.
+- Ma H, et al. Thrombolysis guided by perfusion imaging up to 9 hours after onset of stroke (EXTEND). *N Engl J Med* 2019;380:1795-1803.
+- Dávalos A, et al. The clinical-DWI mismatch: a new diagnostic approach to the brain tissue at risk of infarction. *Neurology* 2004;62:2187-2192.
+- Patel SH, et al. T2-FLAIR mismatch, an imaging biomarker for IDH and 1p/19q status in lower-grade gliomas. *Clin Cancer Res* 2017;23:6078-6085.
 - Kattah JC, et al. HINTS to diagnose stroke in the acute vestibular syndrome. *Stroke* 2009;40:3504-3510.
 - Saber Tehrani AS, et al. Small strokes causing severe vertigo: frequency of false-negative MRIs and nonlacunar mechanisms. *Neurology* 2014;83:169-173.
 - Easton JD, et al. Definition and evaluation of transient ischemic attack. *Stroke* 2009;40:2276-2293.
