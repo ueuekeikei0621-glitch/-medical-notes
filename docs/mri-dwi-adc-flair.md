@@ -168,6 +168,23 @@ DWI 白・ADC 黒（急性期梗塞）
 - 現場で「血管造影」「アンギオ」と言うと DSA（カテーテル）を指すことが多い。MRI の血管画像は「MRA」と言う
 - FLAIR 血管内高信号（FVH）があれば、MRA での主幹動脈閉塞を特に意識して見る
 
+**主幹動脈 ＝ どの血管か**
+
+![主幹動脈（正面から見た脳の動脈）](img/major-arteries.svg)
+
+| 血管 | 略・読み | 血栓回収 | 詰まったときの症状の目安 |
+|---|---|---|---|
+| 内頸動脈（頭蓋内〜末端部） | ICA | **確立** | MCA＋ACA 領域。重度の片麻痺＋失語または無視＋共同偏視 |
+| 中大脳動脈 M1（水平部） | エムワン | **確立** | 片麻痺（顔・腕優位）、失語（優位半球）、半側空間無視（劣位半球）、共同偏視（病巣側を見る） |
+| 脳底動脈 | BA | **確立**（2022 年の RCT：ATTENTION・BAOCHE） | 意識障害、四肢麻痺、眼球運動障害、構音障害。重いのに「意識障害」として見逃されやすい |
+| 中大脳動脈 M2（近位の太い枝） | エムツー | 症例により検討 | MCA 症状の一部（失語だけ、など） |
+| 椎骨動脈（頭蓋内 V4） | VA | 症例により検討 | 延髄・小脳の症状。脳底動脈に波及しうる |
+| 前大脳動脈・後大脳動脈・M3 以遠 | ACA・PCA | ルーチンでは対象外（2025 年の RCT：ESCAPE-MeVO・DISTAL で上乗せ効果なし） | ACA：下肢優位の麻痺、PCA：同名半盲 |
+
+- **tandem 閉塞**：頸部の内頸動脈の閉塞・高度狭窄と、頭蓋内の主幹動脈閉塞が同時にある状態。血栓回収の対象（頸部にステントを置くこともある）
+- MRA では、閉塞部から先の血管が **途切れて写らない**。必ず左右を見比べる
+- **描出不良 ≠ 閉塞** のこともある：椎骨動脈は左右差（片側の低形成）が多く、遅い血流でも写りが悪くなる
+
 ### 3-3. 出血の確認：T2\*（と SWI・CT）
 
 | 略称 | 読み | 正式名 | 日本語 |
@@ -410,6 +427,10 @@ A：HINTS+ 中枢パターン（注視方向性眼振、skew＋）のため小�
 - Albers GW, et al. Thrombectomy for stroke at 6 to 16 hours with selection by perfusion imaging (DEFUSE 3). *N Engl J Med* 2018;378:708-718.
 - Nogueira RG, et al. Thrombectomy 6 to 24 hours after stroke with a mismatch between deficit and infarct (DAWN). *N Engl J Med* 2018;378:11-21.
 - Ma H, et al. Thrombolysis guided by perfusion imaging up to 9 hours after onset of stroke (EXTEND). *N Engl J Med* 2019;380:1795-1803.
+- Tao C, et al. Trial of endovascular treatment of acute basilar-artery occlusion (ATTENTION). *N Engl J Med* 2022;387:1361-1372.
+- Jovin TG, et al. Trial of thrombectomy 6 to 24 hours after stroke due to basilar-artery occlusion (BAOCHE). *N Engl J Med* 2022;387:1373-1384.
+- Goyal M, et al. Endovascular treatment of stroke due to medium-vessel occlusion (ESCAPE-MeVO). *N Engl J Med* 2025.
+- Psychogios M, et al. Endovascular treatment for stroke due to occlusion of medium or distal vessels (DISTAL). *N Engl J Med* 2025.
 - Dávalos A, et al. The clinical-DWI mismatch: a new diagnostic approach to the brain tissue at risk of infarction. *Neurology* 2004;62:2187-2192.
 - Patel SH, et al. T2-FLAIR mismatch, an imaging biomarker for IDH and 1p/19q status in lower-grade gliomas. *Clin Cancer Res* 2017;23:6078-6085.
 - Kattah JC, et al. HINTS to diagnose stroke in the acute vestibular syndrome. *Stroke* 2009;40:3504-3510.

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 1000" width="820" height="1000" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Noto Sans CJK JP','Yu Gothic','IPAGothic',sans-serif">
+  <title>主幹動脈はどれ？（正面から見た脳の動脈）</title>
+  <rect width="820" height="1000" fill="#ffffff"/>
+
+  <!-- タイトル -->
+  <text x="410" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#202124">主幹動脈はどれ？（正面から見た脳の動脈）</text>
+  <text x="410" y="72" text-anchor="middle" font-size="14" fill="#5f6368">MRA の正面像・カテーテル造影（DSA）と同じ向き。向かって左が患者の右</text>
+  <text x="40" y="118" font-size="14" fill="#5f6368">患者の右</text>
+  <text x="780" y="118" text-anchor="end" font-size="14" fill="#5f6368">患者の左</text>
+
+  <!-- 頭蓋底 -->
+  <line x1="240" y1="650" x2="580" y2="650" stroke="#bdc1c6" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="592" y="655" font-size="13" fill="#80868b">頭蓋底</text>
+  <text x="592" y="630" font-size="12" fill="#80868b">↑ 頭蓋内</text>
+  <text x="592" y="680" font-size="12" fill="#80868b">↓ 頸部</text>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ===== 灰：中・遠位、頸部、交通動脈 ===== -->
+    <g stroke="#9aa0a6">
+      <!-- M3 以遠（右） -->
+      <path d="M170 270 L128 212" stroke-width="3"/>
+      <path d="M170 270 L192 200" stroke-width="3"/>
+      <path d="M135 320 L82 288" stroke-width="3"/>
+      <path d="M135 320 L88 352" stroke-width="3"/>
+      <!-- M3 以遠（左） -->
+      <path d="M650 270 L692 212" stroke-width="3"/>
+      <path d="M650 270 L628 200" stroke-width="3"/>
+      <path d="M685 320 L738 288" stroke-width="3"/>
+      <path d="M685 320 L732 352" stroke-width="3"/>
+      <!-- 前大脳動脈 A1・前交通動脈・A2 -->
+      <path d="M340 400 C360 392 380 378 398 372" stroke-width="4"/>
+      <path d="M480 400 C460 392 440 378 422 372" stroke-width="4"/>
+      <path d="M398 372 L422 372" stroke-width="3"/>
+      <path d="M401 372 C399 300 399 230 404 160" stroke-width="4"/>
+      <path d="M419 372 C421 300 421 230 416 160" stroke-width="4"/>
+      <!-- 後大脳動脈 P1・P2 -->
+      <path d="M410 485 L372 478 C330 478 290 490 250 510 L215 540" stroke-width="4"/>
+      <path d="M410 485 L448 478 C490 478 530 490 570 510 L605 540" stroke-width="4"/>
+      <!-- 後交通動脈 -->
+      <path d="M333 445 C348 458 360 470 372 478" stroke-width="3"/>
+      <path d="M487 445 C472 458 460 470 448 478" stroke-width="3"/>
+      <!-- 頸部 内頸動脈・椎骨動脈 -->
+      <path d="M300 860 L300 650" stroke-width="8"/>
+      <path d="M520 860 L520 650" stroke-width="8"/>
+      <path d="M372 860 L372 650" stroke-width="5"/>
+      <path d="M448 860 L448 650" stroke-width="5"/>
+    </g>
+
+    <!-- ===== 橙：症例により検討（白い縁取りで手前に） ===== -->
+    <g stroke="#ffffff" stroke-width="12">
+      <path d="M200 392 C185 360 175 320 170 270"/>
+      <path d="M200 392 C175 380 150 360 135 320"/>
+      <path d="M620 392 C635 360 645 320 650 270"/>
+      <path d="M620 392 C645 380 670 360 685 320"/>
+      <path d="M372 650 C372 625 395 612 410 600"/>
+      <path d="M448 650 C448 625 425 612 410 600"/>
+    </g>
+    <g stroke="#e8710a" stroke-width="6">
+      <path d="M200 392 C185 360 175 320 170 270"/>
+      <path d="M200 392 C175 380 150 360 135 320"/>
+      <path d="M620 392 C635 360 645 320 650 270"/>
+      <path d="M620 392 C645 380 670 360 685 320"/>
+      <path d="M372 650 C372 625 395 612 410 600"/>
+      <path d="M448 650 C448 625 425 612 410 600"/>
+    </g>
+
+    <!-- ===== 赤：主幹動脈（白い縁取りで手前に） ===== -->
+    <g stroke="#ffffff" stroke-width="16">
+      <path d="M300 650 C300 615 332 605 336 570 C340 535 320 505 328 470 C332 450 338 425 340 400"/>
+      <path d="M520 650 C520 615 488 605 484 570 C480 535 500 505 492 470 C488 450 482 425 480 400"/>
+      <path d="M340 400 C300 396 240 392 200 392"/>
+      <path d="M480 400 C520 396 580 392 620 392"/>
+      <path d="M410 600 L410 485"/>
+    </g>
+    <g stroke="#d93025">
+      <!-- 内頸動脈（頭蓋内） -->
+      <path d="M300 650 C300 615 332 605 336 570 C340 535 320 505 328 470 C332 450 338 425 340 400" stroke-width="10"/>
+      <path d="M520 650 C520 615 488 605 484 570 C480 535 500 505 492 470 C488 450 482 425 480 400" stroke-width="10"/>
+      <!-- 中大脳動脈 M1 -->
+      <path d="M340 400 C300 396 240 392 200 392" stroke-width="9"/>
+      <path d="M480 400 C520 396 580 392 620 392" stroke-width="9"/>
+      <!-- 脳底動脈 -->
+      <path d="M410 600 L410 485" stroke-width="9"/>
+    </g>
+  </g>
+
+  <!-- ラベル -->
+  <text x="410" y="146" text-anchor="middle" font-size="15" fill="#5f6368">前大脳動脈 ACA</text>
+  <text x="255" y="430" text-anchor="middle" font-size="16" font-weight="bold" fill="#d93025">中大脳動脈 M1</text>
+  <text x="206" y="338" font-size="16" font-weight="bold" fill="#e8710a">M2</text>
+  <text x="30" y="408" font-size="14" fill="#5f6368">M3 以遠</text>
+  <text x="305" y="588" text-anchor="end" font-size="16" font-weight="bold" fill="#d93025">内頸動脈 ICA</text>
+  <text x="290" y="770" text-anchor="end" font-size="14" fill="#5f6368">頸部の内頸動脈</text>
+  <text x="418" y="532" font-size="14" font-weight="bold" fill="#d93025">脳底動脈</text>
+  <text x="418" y="550" font-size="14" font-weight="bold" fill="#d93025">BA</text>
+  <text x="410" y="762" text-anchor="middle" font-size="14" fill="#5f6368">椎骨動脈</text>
+  <text x="410" y="780" text-anchor="middle" font-size="14" fill="#5f6368">VA</text>
+  <text x="362" y="628" text-anchor="end" font-size="13" font-weight="bold" fill="#e8710a">V4</text>
+  <text x="612" y="552" font-size="14" fill="#5f6368">後大脳動脈 PCA</text>
+  <text x="505" y="466" font-size="12" fill="#80868b">後交通動脈</text>
+  <text x="438" y="362" font-size="12" fill="#80868b">前交通動脈</text>
+
+  <!-- 凡例 -->
+  <g stroke-linecap="round">
+    <line x1="60" y1="896" x2="100" y2="896" stroke="#d93025" stroke-width="9"/>
+    <line x1="60" y1="930" x2="100" y2="930" stroke="#e8710a" stroke-width="6"/>
+    <line x1="60" y1="964" x2="100" y2="964" stroke="#9aa0a6" stroke-width="4"/>
+  </g>
+  <text x="114" y="901" font-size="14" fill="#202124"><tspan font-weight="bold">主幹動脈</tspan>：血栓回収の適応が確立（内頸動脈〔頭蓋内〕・中大脳動脈 M1・脳底動脈）</text>
+  <text x="114" y="935" font-size="14" fill="#202124"><tspan font-weight="bold">症例により検討</tspan>：中大脳動脈 M2（近位の太い枝）・椎骨動脈（頭蓋内）</text>
+  <text x="114" y="969" font-size="14" fill="#202124"><tspan font-weight="bold">それ以外</tspan>：ACA・PCA・M3 以遠・頸部の血管（単独では通常の血栓回収の対象外）</text>
+</svg>
